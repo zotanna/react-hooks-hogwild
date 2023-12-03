@@ -150,3 +150,30 @@ ul {
     transform: rotate(360deg);
   }
 }
+
+.hogList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.hogTile {
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+}
+
+.hogTile img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hogTile.showDetails {
+  height: auto;
+}
+
+.hogDetails {
+  margin-top: 10px;
+  font-size: 14px;
+}
